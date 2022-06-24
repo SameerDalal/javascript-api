@@ -4,7 +4,7 @@ const url = undefined;
         async function getData() {
             const response = await fetch(url);
             const data = await response.json();
-            // convertts the respose to json type
+            // converts the respose to json type
             console.log(data)
         }       
     getData();
